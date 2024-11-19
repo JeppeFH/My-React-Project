@@ -10,7 +10,7 @@ const Profilecard = ({ user }) => {
         </h2>
         <img src={user.image} />
         <p>Username: {user.username}</p>
-        <p>Password: {user.password}</p>
+        <p>Username: {user.password}</p>
       </figcaption>
     </figure>
   );
